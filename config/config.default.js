@@ -16,7 +16,7 @@ module.exports = appInfo => {
   config.keys = appInfo.name + '_1622087405880_484';
 
   // add your middleware config here
-  config.middleware = [];
+  config.middleware = [ 'TestABD' ];
 
   // add your user config here
   const userConfig = {
